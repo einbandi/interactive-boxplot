@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es6",
+    "importHelpers": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016.array.include",
+      "es2017.object"
+    ],
+    "declaration": false,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "stripInternal": true,
+    "esModuleInterop": true
+  },
+  "compileOnSave": false,
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "src/**/*.d.ts"
+  ],
+  "files": [ 
+    "custom.d.ts", "./src/IBoxData.ts" 
+  ]
+}
