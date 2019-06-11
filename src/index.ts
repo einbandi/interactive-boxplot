@@ -5,7 +5,7 @@ import 'd3-transition';
 import { scaleLinear, scaleOrdinal } from 'd3-scale';
 import { schemeCategory10 } from 'd3-scale-chromatic';
 
-import test_data from './assets/json/boxplot-test.json';
+import test_data from './assets/json/boxpl-909.json';
 import { BoxPlotData, IBoxData, PlottedWhiskerBox, IBoxOptions } from './IBoxData';
 
 // classList should be tied to main data
